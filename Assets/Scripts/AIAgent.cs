@@ -3,7 +3,7 @@ using Pathfinding;
 public class AIAgent : MonoBehaviour
 {
     AIPath path;
-    [SerializeField] float moveSpeed = 1f;
+    public float moveSpeed = 1f;
     [SerializeField] Transform target;
     private void Start()
     {

@@ -15,6 +15,8 @@ public class Player : MonoBehaviour, ILiving
     [SerializeField] float Speed = 1;
 
 
+    string leaderboardId = "astra_leaderboard";
+
     GameController gameController;
     float health;
     float attackSpeed = 1f/4f,attackingTimer;
@@ -103,7 +105,7 @@ public class Player : MonoBehaviour, ILiving
     
     void Animate(Vector2 movementVector)
     {
-        if (movementVector != Vector2.zero)
+        if (movementVector != Vector2.zero && !isAttacking) 
         {
             animator.SetFloat("X", movementVector.x);
             animator.SetFloat("Y", movementVector.y);
@@ -126,7 +128,7 @@ public class Player : MonoBehaviour, ILiving
         gameController.SetHealtBarVisual(health/maxHealth);
         if (health <= 0)
         {
-            Bridge.advertisement.ShowInterstitial();
+            Bridge.leaderboards.SetScore(leaderboardId, Point);
 
             PlayerPrefs.SetFloat("Point", Point);
 
