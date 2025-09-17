@@ -1,9 +1,8 @@
+using UnityEngine;
+using TMPro;
+using UnityEngine.SceneManagement;
 using Playgama;
 using Playgama.Modules.Advertisement;
-using Playgama.Modules.Platform;
-using TMPro;
-using UnityEngine;
-using UnityEngine.SceneManagement;
 public class MenuController : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI Score;
@@ -11,7 +10,6 @@ public class MenuController : MonoBehaviour
     {
         Score.text = "Highest Score: " + PlayerPrefs.GetFloat("Point").ToString();
         Bridge.advertisement.ShowBanner();
-        Bridge.platform.SendMessage(PlatformMessage.GameReady);
     }
 
     public void Play()

@@ -59,8 +59,6 @@
         "backfillId": ""
     },
     "payments": [],
-    "leaderboards": [{
-      "id": "astra_leaderboard"
-    }],
+    "leaderboards": [],
     "sendAnalyticsEvents": true
 }
