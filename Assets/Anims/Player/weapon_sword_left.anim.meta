@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b6aac18a20dde7747857e2833be828b2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 182650
+  packageName: 2D Character - Astronaut
+  packageVersion: 2.0
+  assetPath: Assets/Anims/Animation Clips/weapon_sword_side.anim
+  uploadId: 624117

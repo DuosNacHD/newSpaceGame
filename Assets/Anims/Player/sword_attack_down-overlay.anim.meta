@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8ac773e8ba5ecbc44997121973a2e0aa
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 182650
+  packageName: 2D Character - Astronaut
+  packageVersion: 2.0
+  assetPath: Assets/Anims/Animation Clips/sword_attack_down-overlay.anim
+  uploadId: 624117

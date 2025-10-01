@@ -1,6 +1,9 @@
+using Playgama;
+using Playgama.Modules.Platform;
+using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
 public class GameController : MonoBehaviour
 {
     public static GameController Instance;
@@ -8,7 +11,10 @@ public class GameController : MonoBehaviour
     {
         Instance = this;
     }
-
+    private void Start()
+    {
+        Bridge.platform.SendMessage(PlatformMessage.GameReady);
+    }
 
     [SerializeField] TextMeshProUGUI scoreText;
     [SerializeField]Image barImage;

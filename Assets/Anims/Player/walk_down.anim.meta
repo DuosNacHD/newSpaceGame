@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d1f22c4cd77997445bac04552f84a0d6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 182650
+  packageName: 2D Character - Astronaut
+  packageVersion: 2.0
+  assetPath: Assets/Anims/Animation Clips/walk_down.anim
+  uploadId: 624117

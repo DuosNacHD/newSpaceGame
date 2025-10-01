@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a724dffd9c2c5ee47a21086a0389031c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 182650
+  packageName: 2D Character - Astronaut
+  packageVersion: 2.0
+  assetPath: Assets/Anims/Animation Clips/idle_down.anim
+  uploadId: 624117
